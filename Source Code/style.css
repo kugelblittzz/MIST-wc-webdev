@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background: url(Background.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    position: relative;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border-style: none;
+
+}
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;    
+    border-radius: 1rem;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    padding: 2.3rem;
+    gap: 8rem;
+    margin: 2rem 2rem;
+    position: absolute;
+    top: 100%; 
+    transform: translateY(20%);
+   
+    
+}
+.text {
+    width: auto;
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text h3 {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    color: #fff;
+    width: 100%;
+}
+.text p {
+    margin: 0.5rem 0rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fafafa;
+    font-size: 1rem;
+    /* justify-content: center; */
+}
+.form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    /* justify-content: center; */
+}
+.user-input {
+    display: flex;
+    flex-direction: column;
+}
+.user-input label {
+    font-size: 0.8rem;
+    color: #fafafa;
+}
+.user-input input {
+    height: 3rem;
+    width: 100%;
+    padding: 3%;
+}
+::placeholder {
+    font-family: 'Poppins', sans-serif;;
+}
+.user-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-text label {
+    color: #fafafa;
+}
+.terms {
+    margin: 1rem 0rem;
+}
+.terms label {
+    color: #fafafa;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit {
+    width: 100%;
+    
+}
+.submit input {
+    width: 100%;
+    height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-style: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #161616;
+    background-color: rgb(226, 226, 226);
+}
+
+@media (max-width: 865px){
+    .container {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 1rem;
+    }
+    .text {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+    }
+
+}
