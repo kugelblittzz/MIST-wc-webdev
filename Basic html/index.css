@@ -1,0 +1,103 @@
+
+body {
+background-image: url("https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg");
+}
+
+.main_div {
+  width:50%;
+  height: 100%;
+  display: flex;
+  background-color: #2B3433;
+  padding: 50px;
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.left_div {
+  padding: 15px 50px 75px 0px;
+}
+
+.right_div {
+  width: 100%;
+}
+
+.half_text_1 {
+  margin-right: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.half_text_2 {
+  padding: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.block {
+    display:block;
+}
+
+.first_row {
+display: flex;
+flex-direction: row;
+justify-content: left;
+}
+
+.textfield {
+  width: 100%;
+  padding: 10px;
+}
+
+.textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  min-height: 140px;
+}
+
+.text {
+  padding: 10px;
+}
+
+.form_row {
+  padding: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.submit_button {
+  margin: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #D0DEDE;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.check-box {
+  padding: 10px;
+  height: 30px;
+}
+
+.checkbox {
+  height: 20px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: blue;
+}
