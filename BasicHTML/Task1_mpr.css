@@ -1,0 +1,50 @@
+/*Style body*/
+body{
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/572/458/476/grey-abstract-geometric-triangle-background-wallpaper-thumb.jpg');
+}
+/*Style table*/
+table{
+  text-align: left;
+  width: 15%;
+}
+/* Split the screen in half */
+.split {
+  height:60%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  bottom: 20%;
+  overflow-x: hidden;
+  padding-top: 12px;
+  margin: 30%;
+}
+/* Control the left side */
+.left {
+  left: 20%;
+  background-color: rgb(31, 41, 43);
+  margin: 0px;
+}
+/* Control the right side */
+.right {
+  right: 20%;
+  background-color: rgb(31, 41, 43);
+  text-align: left;
+  margin: 0px;
+}
+/* Centering the content*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+/*Styling for Textbox inputs*/
+.Text{
+  height: 30px;
+}
