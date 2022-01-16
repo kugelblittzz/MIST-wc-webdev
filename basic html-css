@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/d4bcfcc59b.js" crossorigin="anonymous"></script>
+</head>
+
+<title>	
+	Welcome!
+</title>
+
+<body>
+		<div class="parent">
+		<div class="box-1">
+		
+			
+			Contact Info:<br> 
+
+			<i class="fas fa-phone-square-alt"></i>
+			+1 (234)567-8910 <br>
+
+			<i class="far fa-envelope"></i>
+			contact@yourmail.com <br>
+
+			<i class="fas fa-map-marker-alt"></i> 
+			Address: 203, Envato Labs, Behind Alis Street, Australia 
+		
+
+	      </div>
+
+	
+		<div class="box-2">
+			
+			<label for="name"> Name:</label>
+			<input type="text" name="Name" margin:5px;" placeholder="Your name.."> <br>
+			
+			
+			<label for="email"> Email:</label>
+			<input type="text" name="Email ID" "margin:5px;" placeholder="Enter a valid email address.."> <br>
+
+			
+			<label for="message"> Message: </label> <br>
+			<input type="text" name="Message" size="20"placeholder="Enter a message.."><br>
+
+			
+			<input type="radio">I accept the Terms of Service. </label>
+			<label for="radio" name="I accept the Terms of Service." size="20"> <br>
+
+			<input type="submit" value="Submit" size="20px "> <br>
+			
+		</div>
+
+
+</div>
+</body>
+<style>
+   .parent {
+		        font-family: Trebuchet MS;
+			font-size: 20px;
+			background-color:#F0FFFF;
+			position:relative;
+			bottom:200px;
+			left:200px;
+			right:200px;
+			top:200px;
+			width:1000px; 
+			border-style:solid; 10px;
+			border-color: white;
+			display:flex;
+			padding-top: 30px;
+			padding-down: 40px;
+			padding-left:40px;
+			padding-right:40px;
+			
+	}
+	
+	.box-2 {	padding-top: 2px;
+			padding-down: 15px;
+			padding-left:40px;
+			padding-right:40px;
+
+			
+}
+	input[type=submit]{
+                       width: 100%;
+  			background-color:powderblue;
+  			color: white;
+ 			padding: 14px 20px;
+  			margin: 8px 0;
+  			border: none;
+  			border-radius: 4px;
+  			cursor: pointer;
+  			font-size: 20px;
+  			font-family: Trebuchet MS;
+			
+
+	}
+	input[type=text]{
+			width: 100%;
+			background-color:powderblue;
+  			color: white;
+ 			padding: 14px 20px;
+  			margin: 8px 0;
+  			border: none;
+  			border-radius: 4px;
+  			cursor: pointer;
+  			font-size: 20px;
+  			font-family: Trebuchet MS;
+			}
+
+
+</style>
+<body style="background: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png)">
+</html>
