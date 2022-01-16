@@ -1,0 +1,70 @@
+body{
+    color: white;
+    background-image: url("photo1.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.container{
+    margin: 200px;
+    height: 400px;
+    width: 60%;
+    border: 2px solid #241f1f;
+    background-color: #241f1f;
+    display: flex;
+    margin-left: 300px;
+}
+h1{
+    color: white;
+    margin-left: 30px;    
+}
+#item-1{
+    
+    margin: 10px;
+    padding: 3px;
+    width: 40%;
+}
+#item-2{
+
+    margin: 45px;
+    padding: 3px;
+    width: 60%;
+}
+.number{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.email{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.address{
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.abc{
+    display: inline-block;
+}
+.mob{
+    width: 50%;
+    
+}
+.email{
+    margin-left: 15px;
+    margin-bottom: -18px;
+    font-size: 17px;
+}
+button{
+    width: 90%;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.name{
+    margin-left: 0px;
+    margin-bottom: -18px;
+    font-size: 17px;
+}
