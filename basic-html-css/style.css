@@ -1,0 +1,55 @@
+body{
+    background-image: url('index.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.box1{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+#container{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    background-color: black;
+    opacity: 85%;
+    margin: auto;
+    width: 50%;
+    padding: 35px;
+}
+#butt{
+    color: greenyellow;
+}
+.leftside {
+    display: inline;
+    width: 45%;
+    padding-right: 2%;
+}
+.rightside {
+    display: flex;
+    width: 55%;
+}
+#form{
+    width: 100%;
+}
+.name_mail{
+    display: flex;
+    width: 100%;
+}
+.name{
+    display: inline;
+    width: 50%;
+    padding-right: 10%;
+}
+.mail{
+    display: inline;
+    width: 50%;
+}
+button{
+    width: 100%;
+}
+button:hover{
+    background-color: yellowgreen;
+}

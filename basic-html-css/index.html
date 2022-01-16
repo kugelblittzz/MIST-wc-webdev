@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="box1">
+        <div id="container">
+            <div class="leftside">
+                <h1>Contact Info</h1>
+                <br>
+                <div>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="butt">phone</i>+1 (234) 567-8910
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="butt">email</i>contact@yourmail.com
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="butt">location_on</i>203, Evanto Labs, Behind Alis Street, Australia
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                <form id="form">
+                    <div class="name_mail">
+                        <div class="name">
+                            <label for="Name">Name</label><br>
+                            <input type="text" placeholder="Enter your Name" style="padding: 7.5px;">
+                        </div>
+                        <div class="mail">
+                            <label for="Email">Email</label><br>
+                            <input type="text" placeholder="Enter a valid email address" style="padding: 7.5px;">
+                        </div>
+                    </div>
+                    <br>
+                    <label for="message">Message</label><br>
+                    <textarea placeholder="Enter your Message" style="padding: 7.5px;"></textarea>
+                    <br>
+                    <br>
+                    <div>
+                        <input type="checkbox">
+                        <label for="terms">I accept the Terms & Service</label>
+                    </div>
+                    <br>
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
