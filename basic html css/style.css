@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/5543478.jpg);
+    background-repeat: no-repeat;
+    margin:0%;
+    padding: 0;
+}
+
+#main{
+    background-color: rgb(51, 53, 49);
+    color: white;
+    width: 130vh;
+    margin: auto;
+    margin-top: 12%;
+    height: 50vh;
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+
+
+
+#name_email{
+    display: flex;
+    column-gap: 14px;
+    justify-content: space-between;
+}
+
+input{
+    border-radius: 0;
+    padding: 6px;
+}
+
+#customer_details{
+    display: flex;
+    flex-direction: column;
+    /* width: 140px; */
+    
+}
+
+#terms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+button{
+    height: 40px;
+    cursor: pointer;
+}
+
+#phone, #mail, #location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
