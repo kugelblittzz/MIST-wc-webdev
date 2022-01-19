@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIST</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+    color: white;
+    background-image: url("imgm.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.body{
+    margin: 200px;
+    height: 400px;
+    width: 60%;
+    border: 2px solid #221c1c;
+    background-color: #121116cb;
+    display: flex;
+    margin-left: 300px;
+}
+h1{
+    color: white;
+    margin-left: 35px;    
+}
+#item-1{
+
+    margin: 10px;
+    padding: 3px;
+    width: 40%;
+}
+#item-2{
+
+    margin: 45px;
+    padding: 3px;
+    width: 60%;
+}
+.number{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.email{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.address{
+    color: white;
+    margin-left: 25px;
+    font-size: 17px;
+}
+.run{
+    display: inline-block;
+}
+.mail{
+    width: 50%;
+
+}
+.name{
+    margin-left: 0px;
+    margin-bottom: -18px;
+    font-size: 17px;
+}
+.email{
+    margin-left: 25px;
+    margin-bottom: -18px;
+    font-size: 17px;
+}
+button{
+    width: 90%;
+    height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <div class="body">
+
+        <div class="item" id="item-1"><h1>Contact Info</h1> <br>
+
+        <div class="number">
+             <img src="phone.png" height="30px" width="30px" style="margin-left: 7px;" > &nbsp; +1(234) 567-8910</div>
+              <br>
+        <div class="email" > 
+            <img src="email.png" height="20px" width="20px" style="margin-left: 15px;"> &nbsp; contact@yourmail.com</div> 
+            <br> <br>
+        <div class="address" > 
+            <img src="location.png" height="20px" width="20px" style="margin-left: 10px;"> &nbsp; 203, Envato Labs, Behind Alis street, Australia</div>
+        </div>
+        <div class="item" id="item-2">
+            <form action="">
+                <div class="name_1" style="display: inline-flex;">
+                    <div class="mob "> 
+                        <div class="name">Name</div>
+                        <br> 
+                         <input type="text" name="name" id="name" style="height: 30px; width: 100%;" placeholder="Enter your Name">
+                    </div>
+                    <div class="mail">
+                        <div class="email">   Email</div>
+                        <br> 
+                        <input type="email" name="name_1" style="height: 30px; width: 200px; margin-left: 15px;" placeholder="Enter a valid email address">
+                    </div> 
+                </div>
+                <br>
+                <br>
+                Message<br>
+                <textarea name="message" id="message" cols="50" rows="5" placeholder="Enter your Message"></textarea>
+                <br> <br> 
+                <input type="checkbox" name="id=""> I accept the<a href> Terms of Service</a> <br>
+                <br> 
+                <div>
+                <button><b>SUBMIT</b> </button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
