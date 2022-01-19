@@ -1,0 +1,67 @@
+body{
+    background-image: url('backgd.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.box1{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+#container{
+    color: white;
+    font-family: "Helvetica",verdana,sans-serif;
+    display: flex;
+    background-color: rgb(51, 59, 61);
+    opacity: 100%;
+    margin: auto;
+    width: 50%;
+    padding: 35px;
+}
+#button{
+    color: rgb(209, 204, 204);
+}
+.leftside {
+    display: inline;
+    width: 45%;
+    padding-right: 2%;
+}
+.rightside {
+    display: flex;
+    width: 55%;
+}
+#form{
+    width: 100%;
+}
+.name_mail{
+    display: flex;
+    width: 100%;
+}
+.name{
+    display: inline;
+    width: 60%;
+}
+.mail{
+    display: inline;
+    width: 50%;
+}
+.mess{
+width: 100%;
+}
+::placeholder
+{
+    font-family: "helvetica", verdana, sans-serif;
+}
+button{
+    width: 100%;
+    padding: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(176, 202, 209);
+}
+button:hover{
+    background-color: rgba(131, 136, 122, 0.925);
+}

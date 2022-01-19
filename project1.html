@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style_final.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="box1">
+        <div id="container">
+            <div class="leftside">
+                <h1>Contact Info</h1>
+                <br>
+                <div>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="button">phone</i>+1 (234) 567-8910
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="button">email</i>contact@yourmail.com
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <i class="material-icons" id="button">location_on</i>203, Evanto Labs, Behind Alis Street, Australia
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                <form id="form">
+                    <div class="name_mail">
+                        <div class="name">
+                            <label for="Name">Name</label><br>
+                            <input type="text" placeholder="Enter your Name" style="padding: 10px;">
+                        </div>
+                        <div class="mail">
+                            <label for="Email">Email</label><br>
+                            <input type="text" placeholder="Enter a valid email address" style="padding: 10px;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="mess">
+                        <label for="message">Message</label><br>
+                        <textarea placeholder="Enter your message" style="padding: 10px;" rows="5" cols="51"></textarea>
+                        <br>
+                        <br>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="terms">I accept the Terms of Service</label>
+                    </div>
+                    <br>
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
