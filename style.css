@@ -1,0 +1,137 @@
+body {
+    background-image: url("../html/pexels-pixabay-220182.jpg");
+}
+#box {
+    background-color: rgba(36, 48, 32, 0.911);
+    width: 1200px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: -325px;
+}
+#box2 {
+    background-color: white;
+    width: 220px;
+    height: 25px;
+    padding-bottom: 9px;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    margin-left: -110px;
+    margin-top: -12.5px;
+}
+#box3 {
+    background-color: white;
+    width: 220px;
+    height: 25px;
+    padding-bottom: 9px;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    margin-left: -110px;
+    margin-top: -12.5px;
+}
+p {
+    color: rgb(143, 131, 131);
+}
+#box4 {
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    margin-left: -225px;
+    margin-top: -100px;
+}
+#box5 {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 55%;
+    left: 56.55%;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+#ok {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 57.5%;
+}
+#yes {
+    position: absolute;
+    top: 52%;
+    left: 55.5%;
+}
+#submit {
+    background-color: rgb(81, 138, 97);
+    width: 450px;
+    height: 25px;
+    position: absolute;
+    top: 82%;
+    left: 75%;
+    margin-left: -225px;
+    margin-top: -12.5%;
+}
+#no {
+    text-align: center;
+    color: rgb(242, 247, 243);
+    position: absolute;
+    top: 59.5%;
+    left: 73%;
+}
+#big {
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+}
+#phone {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+#number {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    
+}
+
+#letter {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+#mail {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+#place {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+#location {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 19%;
+}
