@@ -1,0 +1,38 @@
+table{
+  background-color: black;
+
+}
+body{
+  background-image: url(hi.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.center {
+  margin-left:25%;
+  margin-right:10%;
+  margin-top:10%;
+  margin-bottom:10%;
+}
+.hello{
+  color: white;
+  font: 10px;
+
+}
+.no{
+  color:white;
+}
+#hello{
+  color: white;
+  font-size: 30px;
+}
+.checkbox{
+    color: white;
+}
+#two{
+ border: none;
+ width: 90%;
+ padding: 16px 32px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
